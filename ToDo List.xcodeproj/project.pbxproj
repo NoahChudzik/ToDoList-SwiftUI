@@ -6,17 +6,17 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4C63F18F3058E30F0034337C /* ToDo_ListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C63F18D3058E1C60034337C /* ToDo_ListApp.swift */; };
+		4C63F1903058E3120034337C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C63F18C3058E1C60034337C /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		4C63F18B3058E1C60034337C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C63F18C3058E1C60034337C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4C63F18D3058E1C60034337C /* ToDo_ListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo_ListApp.swift; sourceTree = "<group>"; };
 		4CB861143058B24700F7BEBE /* ToDo List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ToDo List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		4CB861163058B24700F7BEBE /* ToDo List */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "ToDo List";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4CB861113058B24700F7BEBE /* Frameworks */ = {
@@ -29,10 +29,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C63F18E3058E1C60034337C /* ToDoListProj */ = {
+			isa = PBXGroup;
+			children = (
+				4C63F18B3058E1C60034337C /* Assets.xcassets */,
+				4C63F18C3058E1C60034337C /* ContentView.swift */,
+				4C63F18D3058E1C60034337C /* ToDo_ListApp.swift */,
+			);
+			path = ToDoListProj;
+			sourceTree = "<group>";
+		};
 		4CB8610B3058B24700F7BEBE = {
 			isa = PBXGroup;
 			children = (
-				4CB861163058B24700F7BEBE /* ToDo List */,
+				4C63F18E3058E1C60034337C /* ToDoListProj */,
 				4CB861153058B24700F7BEBE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,9 +69,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				4CB861163058B24700F7BEBE /* ToDo List */,
 			);
 			name = "ToDo List";
 			packageProductDependencies = (
@@ -119,6 +126,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C63F1903058E3120034337C /* ContentView.swift in Sources */,
+				4C63F18F3058E30F0034337C /* ToDo_ListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
